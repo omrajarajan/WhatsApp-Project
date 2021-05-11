@@ -19,7 +19,7 @@ public class StepDefinition {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\hp\\eclipse-workspace\\CucumberProject\\Driver\\chromedriver.exe");
 	    driver = new ChromeDriver();
 	    driver.get("http://adactinhotelapp.com/");
-	    driver.manage().window().maximize();
+	    driver.manage().window().maximize(); 
 	    
 	}
 
